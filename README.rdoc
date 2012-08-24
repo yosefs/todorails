@@ -23,6 +23,8 @@ Plan to create simple todo backbone rails app:
    change todorails to one page ajax app with backbone:
    
    1. remove show action+view
+      (should also remove in routes)
+      
    2. make edit ajax
    3. make destroy ajax
    4. make update
