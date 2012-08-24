@@ -1,10 +1,16 @@
 README
 
+Plan to create app:
+
 1. todo for all users
    model:rails g model item body:text
+   
    view: indexview
+   
    controller+actions:rails g controller item index create remove update  
+   
    define routes
+   
    add backbone:http://italktoomuch.com/2012/05/setting-up-backbonejs-with-ruby-on-rails/
    1. gem 'backbone-on-rails'
    2. bundle install
