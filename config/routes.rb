@@ -1,4 +1,5 @@
 Todorails::Application.routes.draw do
+  root :to => 'item#index'
   resources :items
 
   # The priority is based upon order of creation:
