@@ -15,6 +15,17 @@ Plan to create simple todo backbone rails app:
    setup db:
    rake db:migrate
    rake db:schema:load
+    
+   insert data to seeds.rb
+   
+   rake db:seed   
+      
+   change todorails to one page ajax app with backbone:
+   
+   1. remove show action+view
+   2. make edit ajax
+   3. make destroy ajax
+   4. make update
       
 2. restrict todo only for websites users
    create account
