@@ -11,6 +11,10 @@ Plan to create simple todo backbone rails app:
    
    generate basic auto code:(http://guides.rubyonrails.org/getting_started.html#getting-up-and-running-quickly-with-scaffolding)
    rails g scaffold Item body:text
+   
+   setup db:
+   rake db:migrate
+   rake db:schema:load
       
 2. restrict todo only for websites users
    create account
