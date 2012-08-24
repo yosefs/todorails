@@ -3,5 +3,13 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#   cities = City.create([{ body: 'Chicago' }, { body: 'Copenhagen' }])
+#   Mayor.create(body: 'Emanuel', city: cities.first)
+Item.create([
+{body: 'item1'},
+{body: 'item2'},
+{body: 'item3'},
+{body: 'item4'},
+{body: 'item5'},
+{body: 'item6'},
+{body: 'item7'}])
