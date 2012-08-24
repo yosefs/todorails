@@ -1,4 +1,4 @@
-README
+README - not working version(still in development)
 
 Plan to create simple todo backbone rails app:
 
@@ -26,8 +26,11 @@ Plan to create simple todo backbone rails app:
       (should also remove in routes)
       
    2. make edit ajax
+      add backbone code in 
    3. make destroy ajax
    4. make update
+      
+    add design with twitter bootstrap  
       
 2. restrict todo only for websites users
    create account
