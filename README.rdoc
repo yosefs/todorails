@@ -1,21 +1,17 @@
 README
 
-Plan to create app:
+Plan to create simple todo backbone rails app:
 
 1. todo for all users
-   model:rails g model item body:text
-   
-   view: indexview
-   
-   controller+actions:rails g controller item index create remove update  
-   
-   define routes
    
    add backbone:http://italktoomuch.com/2012/05/setting-up-backbonejs-with-ruby-on-rails/
-   1. gem 'backbone-on-rails'
+   1. gem 'backbone-on-rails' (insert to Gemfile)
    2. bundle install
    3. rails g backbone:install --javascript
    
+   generate basic auto code:(http://guides.rubyonrails.org/getting_started.html#getting-up-and-running-quickly-with-scaffolding)
+   rails g scaffold Item body:text
+      
 2. restrict todo only for websites users
    create account
    login
